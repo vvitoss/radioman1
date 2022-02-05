@@ -8,16 +8,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RadioTest {
 
-    @ParameterizedTest
-    @CsvSource(value = {
-            "adding a channel,2,2",
-    })
-    void getCurrentChanel(String testName, int currentChanel, int expected) {
-        Radio radio = new Radio();
-        radio.setCurrentChanel(currentChanel);
+    // @ParameterizedTest
+    //  @CsvSource(value = {
+    //         "adding a channel,2,2",
+    //})
+    // void getCurrentChanel(String testName, int currentChanel, int expected) {
+    //   Radio radio = new Radio();
+    // radio.setCurrentChanel(currentChanel);
 
-        assertEquals(expected, radio.getCurrentChanel());
-    }
+    // assertEquals(expected, radio.getCurrentChanel());
+    //}
 
     @ParameterizedTest
     @CsvSource(value = {
